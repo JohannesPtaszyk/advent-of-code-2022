@@ -15,7 +15,7 @@ fun main() {
     }
 
     fun part2(input: List<String>): Int {
-        return getElvesCalories(input).sortedDescending().subList(0,3).sum()
+        return getElvesCalories(input).sortedDescending().take(3).sum()
     }
 
     // test if implementation meets criteria from the description, like:
