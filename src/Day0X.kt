@@ -7,11 +7,13 @@ fun main() {
     val testInput = readInput("Day03_test")
     val input = readInput("Day03")
 
-    println("Part1 test: ${part1(testInput)}")
-    check(part1(testInput) == 2)
+    val testResultPart1 = part1(testInput)
+    println("Part1 test: $testResultPart1")
+    check(testResultPart1 == 2)
     println("Part 1: ${part1(input)}")
 
-    println("Part2 test: ${part2(testInput)}")
-    check(part2(testInput) == 0)
+    val testResultPart2 = part2(testInput)
+    println("Part2 test: $testResultPart2")
+    check(testResultPart2 == 0)
     println("Part 2: ${part2(input)}")
 }
